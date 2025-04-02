@@ -438,10 +438,8 @@
                     
                 }, 1500);
                 
-                // 代替実装 - XHRを使用した直接送信（コメントアウト）
-                /*
                 // GASウェブアプリのURL - デプロイ済みのWebアプリURLを設定
-                const gasWebAppUrl = 'https://script.google.com/macros/s/AKfycbwJHcPpGcJTYIZZLar__BmUWB-39rRechk69MMdehV6kreCLFymH39I1s3FLa41Ezd0/exec';
+                const gasWebAppUrl = 'https://script.google.com/macros/s/AKfycbw5WknCpKf3-BfZdQgpygBO5HYO4H7EeB0aTnQm0GOaYy4wadd7AnIDSj1jyhF610u7/exec';
                 
                 // XHRを使用して直接送信
                 const xhr = new XMLHttpRequest();
@@ -487,7 +485,6 @@
                 
                 loadingSpinner.style.display = 'block';
                 xhr.send('message=' + encodeURIComponent(messageText));
-                */
                 
             } catch (error) {
                 loadingSpinner.style.display = 'none';
